@@ -1,12 +1,12 @@
 * {
-  margin:0;
+  margin:  0;
   padding: 0;
   box-sizing: border-box;
 }
 
 header {
   height: 50px;
-  background-color: #FF9A4B;
+  background-color: #ff9a4b;
 }
 
 main {
@@ -48,10 +48,9 @@ main {
   background-position: bottom;
 }
 
-
 .step {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   background-color: orange;
   color: #fff;
@@ -64,4 +63,38 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+}
+
+@media screen and (max-width:768px){
+
+  header{
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+  }
+  
+  .step-box {
+    width: 90%;
+    align-items: center;
+    margin: 10px auto;
+  }
+
+  .step-image1 .step-image2 .step-image3{
+    height: 150px;
+  }
+  
+    footer{
+    width: 100%;
+  }
+
+  .step-box:last-child {
+    margin:10px 0;
+  }
+  
 }
