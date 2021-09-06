@@ -82,7 +82,7 @@ footer {
   .step-box {
     width: 90%;
     align-items: center;
-    margin: 10px auto;
+    margin: 10px auto;0
   }
 
   .step-image1 .step-image2 .step-image3{
@@ -93,8 +93,12 @@ footer {
     width: 100%;
   }
 
+  .step-box:first-child{
+    margin-top: 0%;
+  }
+
   .step-box:last-child {
-    margin:10px 0;
+    margin:10px 0 0 0 ;
   }
   
 }
